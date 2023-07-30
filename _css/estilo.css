@@ -5,16 +5,33 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
 
-
-/* Formatação do Corpo e Paragrafos */
-header#cabecalho img#icone{
+header#cabecalho img#icone {
     position: absolute;
-    left: 1040px;
-    top: 30px;
+    left: 70%;
+    top: 5%;
 }
 
 header#cabecalho {
-    
+    border-bottom: 3px #606060 solid;
+    height: 100px;
+    background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 55px;
+}
+
+header#cabecalho h1 {
+    font-family: "fonte logo";
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: "fonte logo";
+    color: #8888;
+    font-size: 15px;
+    padding: 0px;
+    margin-top: 0px;
 }
 
 body {
