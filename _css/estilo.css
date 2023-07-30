@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* Formatação do Corpo e Paragrafos */
 body {
     background-color: rgba(255, 255, 255, 0.514);
     color: rgba(0, 0, 0, 1);
@@ -13,7 +14,6 @@ p{
 /* Formatação do Menu*/
 nav#menu {
     display: block;
-
 }
 
 nav#menu ul{
@@ -29,6 +29,17 @@ nav#menu li {
     background-color: #dddd;
     padding: 10px;
     margin: 2px;
+    transition: background-color 1s;
+    text-decoration: none;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu a{
+    color: black
+    
 }
 
 nav#menu h1{
