@@ -1,9 +1,27 @@
 @charset "utf-8";
 
+
 /* Formatação do Corpo e Paragrafos */
+header#cabecalho img#icone{
+    position: absolute;
+    left: 1040px;
+    top: 30px;
+}
+
+header#cabecalho {
+    
+}
 body {
-    background-color: rgba(255, 255, 255, 0.514);
+    background-color: #dddd;
     color: rgba(0, 0, 0, 1);
+}
+
+div#interface {
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    padding: 10px;
 }
 
 p{
@@ -21,7 +39,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
+    left: 500px;
 }
 
 nav#menu li {
@@ -52,8 +70,8 @@ figure.foto-legenda{
     position: relative;
     border: 8px solid white;
     box-shadow: 1px 1px 4px black;
-    width: 600px;
-    height: 350px;
+    width: 400px;
+    height: 250px;
 }
 
 figure.foto-legenda img {
