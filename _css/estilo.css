@@ -5,6 +5,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
 
+/* Formatação Header*/
 header#cabecalho img#icone {
     position: absolute;
     left: 70%;
@@ -33,7 +34,7 @@ header#cabecalho h2 {
     padding: 0px;
     margin-top: 0px;
 }
-
+/* Interface */
 body {
     background-color: #dddd;
     color: rgba(0, 0, 0, 1);
@@ -66,9 +67,32 @@ table#tabelaspec td {
     
 }
 
+table#tabelaspec td.ce {
+    color: white;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+}
+
+table#tabelaspec caption {
+    color: #57575788;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#tabelaspec caption span{
+    color: black;
+    display: block;
+    float: right;
+    font-size: 8pt;
+    margin-top: 10px;
+}
 
 /* Formatação do Menu*/
-
 nav#menu {
     display: block;
 }
