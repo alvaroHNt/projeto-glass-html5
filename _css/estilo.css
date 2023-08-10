@@ -230,6 +230,20 @@ aside#lateral h2 {
     font-size: 13pt;
     padding: 5px;
 }
+article video#video {
+    align-self: center;
+    width: 400px;
+    padding: 10px;
+    margin: 5px 30px 15px 30px;
+    border: 3px solid gray;
+}
+
+aside video#video {
+    align-self: center;
+    width: 340px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
 
 footer#rodape {
     border-top: 3px solid #606060;
@@ -239,3 +253,4 @@ footer#rodape {
 footer#rodape p{
     text-align: center;
 }
+
