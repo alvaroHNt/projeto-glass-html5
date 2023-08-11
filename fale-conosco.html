@@ -45,33 +45,43 @@
                     </hgroup>
                 </header>
 
-                Identificação do Usuário
-                Nome:
-                Senha:
-                E-mail:
-                Sexo:
-                    - Masculino
-                    - Feminino
-                Data de Nascimento:
+                <form action="">
+                    <fieldset id="Usuário">
+                        <legend>Identificação do Usuário</legend>
+                        <p>Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"></p>
+                        <p>Senha: <input type="password" name="tSenha" id="cSenha" size="16" maxlength="16" placeholder="Senha"></p>
+                        <p>E-mail: <input type="email" name="tMail" id="cMail" size="20" maxlength="30" placeholder="Email"></p>
+                            <fieldset id="sexo"><legend>Sexo:</legend>
+                                <input type="" name="" id=""> Masculino
+                                 Feminino
+                            </fieldset>
+                        <p>Data de Nascimento:</p>
+                    </fieldset>
 
-                Endereço do Usuário
-                Logradouro:
-                Número:
-                Estado:
-                Cidade:
+                    <fieldset id="endereco">
+                        <legend>Endereço do Usuário</legend>
+                        <p>Logradouro:</p>
+                        <p>Número:</p>
+                        <p> Estado:</p>
+                        <p>Cidade:</p>
+                    </fieldset>
 
-                Mensagem do Usuário
-                Grau de Urgência:
-                Mensagem:
+                    <fieldset id="Mensagem">
+                        <legend>Mensagem do Usuário</legend>
+                        <p>Grau de Urgência:</p>
+                        <p>Mensagem:</p>
+                    </fieldset>
+                    
+                    <fieldset id="pedido">
+                        <legend>Quero um Google Glass</legend>
+                        <P>Gostaria de adquirir um Google Glass quando disponível</P>
+                        <p>Cor:</p>
+                        <p>Quantidade:</p>
+                        <p>Preço Total: R$</p>
+                    </fieldset>
 
-                Quero um Google Glass
-                Gostaria de adquirir um Google Glass quando disponível
-                Cor:
-                Quantidade:
-                Preço Total: R$
-
-
-                [BOTÃO ENVIAR]
+                    [BOTÃO ENVIAR]
+                </form>
             </article>
         </section>
 <footer id="rodape">
